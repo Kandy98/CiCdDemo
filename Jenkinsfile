@@ -46,7 +46,7 @@ pipeline {
         }
         stage('Publish'){
             steps{
-                bat "dotnet publish -c release -r ubuntu.16.04-x64 --self-contained"
+                bat "dotnet publish -c release -r ubuntu.18.04-x64 --self-contained"
                 bat "cd FirstCoreProject/bin/Release/netcoreapp3.1/ubuntu.18.04-x64/"
                 bat "7z a publish.zip publish"
             }
