@@ -1,0 +1,5 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+C:\Users\satvats2\Documents\Projects\Pipeline\FirstLib\Addition.cs	14	_FirstLib.Addition.calculate$$	0	2
+C:\Users\satvats2\Documents\Projects\Pipeline\FirstLib\Division.cs	15	_FirstLib.Division.calculate$$	0	2
+C:\Users\satvats2\Documents\Projects\Pipeline\FirstLib\Multiplication.cs	15	_FirstLib.Multiplication.calculate$$	0	2
+C:\Users\satvats2\Documents\Projects\Pipeline\FirstLib\Subtraction.cs	15	_FirstLib.Subtraction.calculate$$	0	2

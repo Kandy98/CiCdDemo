@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eIzBE79ZrUw1e8CPk7uLcJseA2QYEk3cBEncVRU1Y75cIgexo0YBbqB3Vkh6MFLmJWoy2NEkrLg+oUe++wR1Aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\satvats2\\Documents\\Projects\\Pipeline\\FirstLib\\FirstLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\satvats2\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\satvats2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
