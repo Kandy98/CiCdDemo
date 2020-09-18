@@ -54,8 +54,9 @@ pipeline {
         
         stage('deploy') {
             steps{
-                azureWebAppPublish azureCredentialsId: env.AZURE_CRED_ID,
-                resourceGroup: env.RES_GROUP, appName: env.WEB_APP, filePath: "**/publish.zip"
+                bat "scp -i C:/Users/kanverma/.jenkins/workspace/pod1-demo/key1247 publish.zip kanverma@52.149.213.188:/home/kanverma/"
+                echo 'file copied'
+                
             }
         }
     }
