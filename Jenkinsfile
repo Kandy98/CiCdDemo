@@ -7,11 +7,7 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build') {
-            steps {
-                bat "dotnet build"
-            }
-        }
+        
         stage('Test') {
             steps {
                 bat "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
@@ -37,6 +33,13 @@ pipeline {
               }
             }
         }
+
+        stage('Build') {
+            steps {
+                bat "dotnet build"
+            }
+        }
+
         stage('Run') {
             steps {
                 
@@ -44,6 +47,7 @@ pipeline {
                 bat "dotnet run --project FirstCoreProject"
             }
         }
+        
         stage('Publish'){
             steps{
                 bat "dotnet publish -c release -r ubuntu.18.04-x64 --self-contained"

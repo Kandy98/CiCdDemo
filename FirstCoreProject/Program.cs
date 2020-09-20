@@ -10,6 +10,7 @@ namespace FirstCoreProject
             Console.WriteLine("Hello World!");
             Arithematic a = new Addition(11, 10);
             System.Console.WriteLine(a.calculate());
+            System.Console.WriteLine("Bye World");
             //Checking git poll
         }
     }
