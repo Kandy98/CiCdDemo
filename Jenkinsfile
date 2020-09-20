@@ -12,7 +12,7 @@ pipeline {
                 bat "dotnet build"
             }
         }
-        /*stage('Test') {
+        stage('Test') {
             steps {
                 bat "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
             
@@ -36,7 +36,7 @@ pipeline {
                 waitForQualityGate abortPipeline: true
               }
             }
-        }*/
+        }
         stage('Run') {
             steps {
                 
