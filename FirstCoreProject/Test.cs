@@ -38,15 +38,15 @@ namespace FirstCoreProject.tests
         }
 
 
-       [Fact]
-         public void DivisionTest()
-        {
-             //Given
-             var ob = new Division(2, 2);
-             //When
+    //    [Fact]
+    //      public void DivisionTest()
+    //     {
+    //          //Given
+    //          var ob = new Division(2, 2);
+    //          //When
 
-           //Then
-             Assert.Equal(1, ob.calculate());
-         }
+    //        //Then
+    //          Assert.Equal(1, ob.calculate());
+    //      }
     }
 }
