@@ -36,7 +36,7 @@ namespace FirstCoreProject.tests
             //Then
             Assert.Equal(4, ob.calculate());
         }
-
+//new comment
 
     //    [Fact]
     //      public void DivisionTest()
